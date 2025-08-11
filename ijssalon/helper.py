@@ -1,7 +1,27 @@
-tekst="header"
-lengte = len(tekst) + 4
-print()
-print(lengte * "*")
-print(f"* {tekst} *")
-print(lengte * "*")
-print()
+def decoreer(tekst=""):    
+    tekst="header"    
+    lengte = len(tekst) + 4    
+    print()    
+    print(lengte * "*")    
+    print(f"* {tekst} *")    
+    print(lengte * "*")    
+    print()
+
+def fooi_pp(bedrag, personen):   
+     bedrag_pp = bedrag/personen    
+     return f"Het bedrag per persoon is {bedrag_pp} euro"
+
+def onderstreep(tekst=""):    
+    uit = []    
+    uit.append(tekst)    
+    uit.append(len(tekst) * "=")    
+    return uit
+
+def som():
+a = 1000
+b =  2000
+c =  1500
+d = 750
+z = a + b + c + d
+
+
